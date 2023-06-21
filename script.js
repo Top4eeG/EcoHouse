@@ -25,4 +25,27 @@ $(document).ready(function(){
 
 $(window).on('load', function() {
 	$('.preloader').fadeOut().end().delay(400).fadeOut('slow');
+	scaleText1();
+	scaleText2()
 });
+
+function scaleText1(){
+	const name = document.querySelector('.scroll');
+	name.addEventListener('mousemove', function (){
+		name.classList.add('transform');
+	});
+	name.addEventListener('mouseleave', function (){
+		name.classList.remove('transform');
+	});
+}
+
+function scaleText2(){
+	const name = document.querySelector('.name');
+	name.addEventListener('mousemove', function (){
+		name.classList.add('transform');
+	});
+	name.addEventListener('mouseleave', function (){
+		name.classList.remove('transform');
+	});
+}
+

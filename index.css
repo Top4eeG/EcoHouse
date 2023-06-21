@@ -113,6 +113,10 @@ ol, ul {
     font-size: calc(3px + 20 * (100vw / 1500));
     font-weight: bold;
     color: white;
+    transition: all 0.3s ease-out;
+}
+.name.transform{
+    color: lightgreen;
 }
 
 .header-container{
@@ -168,6 +172,10 @@ ol, ul {
     margin-top: 0;
     margin-left: 76%;
     display: flex;
+    transition: all 0.6s ease-out;
+}
+.scroll.transform{
+    transform: rotate(360deg);
 }
 
 .button{
@@ -595,7 +603,6 @@ li.img5{
 .slidemenu #slide-item-1:checked ~#cont-1
 .slidemenu #slide-item-2:checked ~#cont-2
 .slidemenu #slide-item-3:checked ~#cont-3
-
 
 .text5{
     display: flex;
