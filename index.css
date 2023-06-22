@@ -1340,10 +1340,10 @@ li.img5{
         margin-bottom: -200px;
     }
     .tabs{
-        margin-bottom: -200px;
+        margin-bottom: -150px;
     }
     .video_fifth{
-        margin-bottom: -250px;
+        margin-bottom: -230px;
     }
     .button2{
         margin-bottom: -200px;
@@ -1408,6 +1408,9 @@ li.img5{
     }
     .slider{
         transform: scale(0.8, 0.8);
+    }
+    .icons{
+        trasform: scale(0.8, 0.8);
     }
     .button{
         height: 40px;
@@ -1500,7 +1503,6 @@ li.img5{
     width: 500px;
     max-width: 500px;
     margin: auto;
-
     padding: 40px;
     position: relative;
     color: #fff;
